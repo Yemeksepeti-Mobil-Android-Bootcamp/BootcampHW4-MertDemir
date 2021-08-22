@@ -2,7 +2,7 @@
 
 Bitirme projesi olarak gerçekleştirdiğim proje yer almaktadır.
 
-##Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
  - MVVM architecture
  - Dagger Hilt
  - Retrofit
