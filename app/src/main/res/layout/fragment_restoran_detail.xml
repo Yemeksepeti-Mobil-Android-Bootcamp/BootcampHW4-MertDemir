@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.restoran_detail.RestoranDetailFragment"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_margin="7dp"
+        app:cardCornerRadius="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/lightblack"
+            android:layout_weight="10"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+            <ImageView
+                android:id="@+id/shopImg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:src="@drawable/burgerking"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Burger King"
+                    android:textColor="@color/Orange"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:orientation="horizontal"
+                    android:background="@color/lightblack">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="15dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/PuanColor"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:text="HIZ"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/ubuntu_bold"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="20dp"/>
+                            <TextView
+                                android:id="@+id/shopHız"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="8,0"
+                                android:textSize="20sp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="30dp"
+                                android:textColor="@color/white"
+                                android:fontFamily="@font/ubuntu_bold"/>
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="15dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/PuanColor"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:text="Servis"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/ubuntu_bold"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="20dp"/>
+                            <TextView
+                                android:id="@+id/shopServis"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="7,2"
+                                android:textSize="20sp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="30dp"
+                                android:textColor="@color/white"
+                                android:fontFamily="@font/ubuntu_bold"/>
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="15dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/PuanColor"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/white"
+                                android:text="Lezzet"
+                                android:textSize="20sp"
+                                android:fontFamily="@font/ubuntu_bold"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="20dp"/>
+                            <TextView
+                                android:id="@+id/shopLezzet"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="8,9"
+                                android:textSize="20sp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="30dp"
+                                android:textColor="@color/white"
+                                android:fontFamily="@font/ubuntu_bold"/>
+
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@color/lightblack"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/money"
+                android:layout_gravity="center"
+                android:layout_marginLeft="35dp"/>
+
+            <TextView
+                android:id="@+id/shopMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Min. 15,00"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ubuntu_bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_watch_later_24"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"/>
+            <TextView
+                android:id="@+id/shopMinute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="35-45 dakika"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:fontFamily="@font/ubuntu_bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_comment_24"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/ubuntu_bold"
+                android:text="yorum"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"/>
+
+
+        </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:overScrollMode="never"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menü"
+        android:layout_margin="5dp"
+        android:textSize="25sp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_gravity="center"
+        android:textColor="@color/Orange"/>
+    <ProgressBar
+        android:id="@+id/restorandetailBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/meal_list_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"/>
+        </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

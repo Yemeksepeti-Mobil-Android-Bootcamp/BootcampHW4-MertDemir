@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Sipariş"
+        android:icon="@drawable/forkandspoon"/>
+    <item
+        android:id="@+id/searchFragment"
+        android:title="Ara"
+        android:icon="@drawable/ic_baseline_search_24"/>
+    <item
+        android:id="@+id/basketFragment"
+        android:title="Sepetim"
+        android:icon="@drawable/ic_baseline_shopping_basket_24"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="Ayarlar"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_user_wallet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.basket.BasketFragment"
+    android:background="@color/background"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Orange"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textSize="25sp"
+        android:text="SEPETİM"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/basket_rv"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"/>
+
+    <TextView
+        android:id="@+id/totalBasket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Orange"
+        android:textSize="25sp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_gravity="center"
+        android:text=" "/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sepeti Onayla"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_back"
+        android:layout_marginTop="50dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize" />
+
+
+
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

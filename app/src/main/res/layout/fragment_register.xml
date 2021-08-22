@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ui.register.RegisterFragment"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/yemeksepetilogo"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Kayıt"
+        android:layout_gravity="center"
+        android:textColor="@color/Orange"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+
+    <EditText
+        android:id="@+id/registerfirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/ubuntu_regular"
+        android:gravity="center"
+        android:hint="Adınızı Giriniz"
+        android:padding="9dp"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/registerSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/ubuntu_regular"
+        android:gravity="center"
+        android:hint="Soyadınız Giriniz"
+        android:padding="9dp"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/ubuntu_regular"
+        android:gravity="center"
+        android:hint="Emailinizi Giriniz"
+        android:padding="9dp"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/registerParola"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/ubuntu_regular"
+        android:gravity="center"
+        android:hint="Parolanızı Giriniz"
+        android:padding="9dp"
+        android:textSize="20sp"
+         />
+
+    <EditText
+        android:id="@+id/registerAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/ubuntu_regular"
+        android:gravity="center"
+        android:hint="Adresinizi Giriniz"
+        android:layout_marginTop="16dp"
+        android:padding="9dp"
+        android:textSize="20sp"
+         />
+
+    <EditText
+        android:id="@+id/registerTelefon"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="@font/ubuntu_regular"
+        android:gravity="center"
+        android:hint="Telefon Numaranızı Giriniz"
+        android:inputType="number"
+        android:padding="9dp"
+        android:textSize="20sp"
+         />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/kayıtol_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_back"
+        android:padding="5dp"
+        android:text="Kayıt Ol"
+        android:textColor="@color/background"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.bootcamphw4_mertdemr.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_restoranListFragment"
+            app:destination="@id/restoranListFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_basketFragment"
+            app:destination="@id/basketFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/basketFragment"
+        android:name="com.example.bootcamphw4_mertdemr.ui.basket.BasketFragment"
+        android:label="fragment_basket"
+        tools:layout="@layout/fragment_basket" />
+    <fragment
+        android:id="@+id/restoranListFragment"
+        android:name="com.example.bootcamphw4_mertdemr.ui.restoran_list.RestoranListFragment"
+        android:label="fragment_restoran_list"
+        tools:layout="@layout/fragment_restoran_list" >
+        <action
+            android:id="@+id/action_restoranListFragment_to_restoranDetailFragment"
+            app:destination="@id/restoranDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.bootcamphw4_mertdemr.ui.search.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/restoranDetailFragment"
+        android:name="com.example.bootcamphw4_mertdemr.ui.restoran_detail.RestoranDetailFragment"
+        android:label="fragment_restoran_detail"
+        tools:layout="@layout/fragment_restoran_detail" >
+        <action
+            android:id="@+id/action_restoranDetailFragment_to_mealDetailFragment"
+            app:destination="@id/mealDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.bootcamphw4_mertdemr.ui.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/mealDetailFragment"
+        android:name="com.example.bootcamphw4_mertdemr.ui.meal_detail.MealDetailFragment"
+        android:label="fragment_meal_detail"
+        tools:layout="@layout/fragment_meal_detail" />
+</navigation>

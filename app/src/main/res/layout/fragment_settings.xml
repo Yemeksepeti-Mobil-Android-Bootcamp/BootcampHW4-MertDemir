@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.settings.SettingsFragment"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Mert"
+        android:textColor="@color/Orange"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/surName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Demir"
+        android:textColor="@color/Orange"
+        android:fontFamily="@font/ubuntu_bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Orange"
+        android:text="mertdemir1998@outlook.com"
+        android:fontFamily="@font/ubuntu_regular"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="65dp" />
+
+    <TextView
+        android:id="@+id/user_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Orange"
+        android:text="Gebze/Kocaeli"
+        android:fontFamily="@font/ubuntu_regular"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:id="@+id/user_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Orange"
+        android:text="0532 222 44 10"
+        android:fontFamily="@font/ubuntu_regular"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Cüzdan"
+        android:textColor="@color/Orange"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/user_wallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/MoneyColor"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textSize="20sp"
+        android:text="1254,00 TL"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signOutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_back"
+        android:textColor="@color/background"
+        android:text="Çıkış"
+        android:fontFamily="@font/ubuntu_bold"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+
+
+
+
+
+</LinearLayout>
