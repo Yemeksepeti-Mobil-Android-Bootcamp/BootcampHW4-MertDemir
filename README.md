@@ -16,3 +16,5 @@ Bitirme projesi olarak gerçekleştirdiğim proje yer almaktadır.
  ## Uygulama Gif
  
  <image src="https://github.com/Yemeksepeti-Mobil-Android-Bootcamp/BootcampHW4-MertDemir/blob/main/yemeksepetiVideo.gif" width="300">
+ 
+ Baturhan Kahraman'a backend için teşekkürler.
