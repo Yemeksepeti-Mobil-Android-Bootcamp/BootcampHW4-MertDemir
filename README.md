@@ -3,15 +3,15 @@
 Bitirme projesi olarak gerçekleştirdiğim proje yer almaktadır.
 
 ##Kullanılan Teknolojiler
--MVVM architecture
- -Dagger Hilt
- -Retrofit
- -Coroutine
- -Glide
- -View Binding
- -Navigation
- -View Pager (Onboarding)
- -Recycler View
+ - MVVM architecture
+ - Dagger Hilt
+ - Retrofit
+ - Coroutine
+ - Glide
+ - View Binding
+ - Navigation
+ - View Pager (Onboarding)
+ - Recycler View
  
  ## Uygulama Gif
  
